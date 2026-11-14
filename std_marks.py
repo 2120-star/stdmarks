@@ -9,12 +9,3 @@ for i in range(0, no_ofsubjects):
     total = total + marks
 
 print("Total marks: ", total)
-
-avg = total / no_ofsubjects
-
-print("Average marks: ", avg)
-
-if avg >= 50:
-    print("Pass")
-else:
-    print("Fail")
